@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    background: white;
+    height: 157px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 800px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 25px 0;
+}
+.logo img{}
+
+
+.socail{
+    width: 80%;
+    float: left;
+    padding: 25px 0;
+}
+.socail-link{}
+.icon{
+    text-align: right;
+}
+.icon li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+}
+.icon li a{}
+.icon li a img{}
+.icon .hand{
+    position: absolute;
+    top: 26px;
+    left: 17px;
+}
+hr{
+    transform: translateY(-519px);
+    height: 2px;
+    background: #737373;
+}
+
+nav{
+    width: 100%;
+    transform: translatey(-1110px);
+}
+.header-menu{}
+.header-menu li{
+    list-style: none;
+    display: inline-block;
+}
+.header-menu li a{
+    text-decoration: none;
+    font-size: 19px;
+    padding-right: 20px;
+    color: #747474;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+}
+.header-menu li a:hover{
+    color: #00cf79;
+    border-bottom: 3px solid;
+    border-radius: 15px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: gainsboro;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 610px;
+}
+.our-h{
+    text-align: center;
+    font-size: 84px;
+    padding-bottom: 73px;
+    margin-top: 30px;
+}
+
+
+
+.about-tim{
+    width: 100%;
+    display: flex;
+    margin-left: -2px;
+}
+.about1{background: seashell;margin-left: 28px;height: 300px;}
+.about1 img{
+    width: 50px;
+}
+.about1 h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -33px;
+}
+.about1 p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.hr{
+    width: 50px;
+    height: 4px;
+    background: #cad3be5c;
+    position: absolute;
+    /* top: 0; */
+    margin-top: 81px;
+    margin-left: -87px;
+}
+
+
+
+
+
+.about-tim{
+    width: 100%;
+    display: flex;
+    margin-left: -15px;
+}
+.about1{background: seashell;margin-left: 28px;height: 300px;box-shadow: 1px 1px 13px;}
+.about1 img{
+    transform: translateY(-49px);
+    width: 121px;
+    margin-left: 82px;
+    height: 121px;
+    border-radius: 50%;
+    outline: 7px solid;
+    outline-color: #cdd9b4;
+}
+.about1 h1{}
+.hsv{
+    
+margin-left: 95px;
+    
+color: gray;
+}
+.about1 p{}
+.hr{
+}
+
+
+button {
+    display: block;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-left: 94px;
+    background: #00cefb;
+    border: none;
+} 
+
+.disply{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background: aliceblue;
+    box-shadow: 0px 2px 8px;
+    margin-top: -27px;
+}
+.disply1{
+    width: 40%;
+    float: left;
+    background: #b4f2ffc7;
+    height: 500px;
+    overflow: hidden;
+}
+.disply1 h1{
+    text-align: center;
+    padding: 15px 0;
+}
+.disply1 p{
+    text-align: center;
+    font-size: 19px;
+}
+.disply1 img{
+    padding: 30px 0;
+    width: 350px;
+    margin-left: 22px;
+}
+
+
+.disply2{
+    width: 60%;
+    float: left;
+}
+.disply2 h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 25px 0;
+}
+
+.col{
+    width: 30%;
+    float: left;
+    height: 246px;
+    background: #bbf3fe;
+    margin-left: 16px;
+    box-shadow: 1px 1px  5px;
+}
+.col img{
+    width: 55px;
+    outline: 3px solid;
+    border-radius: 50%;
+    margin-left: 63px;
+    outline-color: wheat;
+    transform: translateY(-16px);
+}
+
+.col .hrr{
+    width: 32px;
+    height: 4px;
+    background: #65c0cf4d;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -47px;
+}
+.col h1{
+    text-align: center;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: -8px;
+}
+
+
+.col span{
+    margin-left: 51px;
+    color: #bfac8aad;
+    padding: 3px 0;
+}
+.col p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 6px;
+}
+.col button{
+    display: inline-block;
+    padding: 8px  9px;
+    font-size: 10px;
+    transform: translateX(-47px);
+}
+

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 158px;
+    height: 800px;
+}
+
+
+.lest-strat{
+    width: 450px;
+    float: left;
+    height: 600px;
+    background: #00d1a8;
+    box-shadow: -9px 5px 11px 2px rgb(51 51 51 / 16%);
+}
+.lest-strat h1{
+    text-align: center;
+    padding: 25px 0;
+    color: wheat;
+}
+.lest-strat p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+.addr{width: 100%;}
+.addr i{
+    float: left;
+    width: 33px;
+    margin-left: 23px;
+    font-size: 31px;
+    transform: translateY(-5px);
+}
+.addr p{
+    width: 80%;
+    float: left;
+    margin-top: 48px;
+    color: wheat;
+    transform: translateY(45px);
+}
+
+
+.phon{}
+.phon i{
+    float: left;
+    width: 33px;
+    margin-left: 23px;
+    font-size: 31px;
+    transform: translateY(-5px);
+}
+.phon h4{
+    width: 80%;
+    float: left;
+    margin-right: 69px;
+    margin-top: 16px;
+    color: wheat;
+    font-size: 19px;
+    transform: translateY(45px);
+}
+
+
+
+.email{
+    /* overflow: inherit; */
+}
+.email i{
+    float: left;
+    width: 33px;
+    margin-left: 23px;
+    font-size: 31px;
+    transform: translateY(-5px);
+}
+.email h2{
+    color: wheat;
+    transform: translateY(61px);
+}
+
+
+.web{}
+.web i{
+    float: left;
+    width: 33px;
+    margin-left: -27px;
+    font-size: 31px;
+    transform: translateY(-5px);
+}
+.web h3{
+    display: inline-block;
+    transform: translateY(98px);
+    color: wheat;
+    font-size: 24px;
+    margin-left: -4px;
+}
+
+
+.contact-form{
+    width: 700px;
+    /* background: #bebcbf; */
+    float: left;
+    box-shadow: 1px 2px 8px -3px;
+}
+form{height: 600px;}
+form p{
+    text-align: center;
+    font-size: 57px;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+.name-input{
+    width: 330px;
+    height: 48px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.email-input{
+    width: 320px;
+    height: 49px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.sub-input{
+    width: 675px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 14px;
+    font-size: 16px;
+    margin-top: 31px;
+}
+
+
+textarea{
+    margin-top: 56px;
+    margin-left: 16px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    row: 6;
+    columns: 90;
+}
+
+button{
+    display: inline-block;
+    padding: 24px 43px;
+    margin-left: 255px;
+    margin-top: 76px;
+    border: none;
+    border-radius: 5px;
+    background: #38cfa5;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
